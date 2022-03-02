@@ -1,0 +1,22 @@
+* {
+}
+.speech_img{
+
+    margin-top: 100px;
+    -webkit-app-region: no-drag;
+    width: 190px; 
+    height: 120px;
+    z-index: 2;
+    position:absolute;
+
+}
+.drug_bar{
+    margin-top:66px;
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+    width: 190px;
+    height: 40px;
+    position:absolute;
+    z-index: -3;
+
+}

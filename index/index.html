@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>speach</title>
+
+    <script src="index.js"></script>
+    <link href="index.css" rel="stylesheet">
+    <script src="socket.io/socket.io.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="flex">
+
+      <div class="flex">
+
+        <div class="setting_start_button" onclick="settingStartButton();">音声開始ボタン設定</div>
+  
+        <div class="setting_start_show">キーを押してください</div>
+  
+      </div>
+
+      <div class="flex">
+
+        <div class="setting_past_button" onclick="settingPastButton();">貼り付けボタン設定</div>
+  
+        <div class="setting_past_show">キーを押してください</div>
+  
+      </div>
+
+    </div>
+    
+    <div id="content"></div>
+
+  </body>
+</html>
